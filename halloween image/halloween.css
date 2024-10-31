@@ -1,0 +1,100 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styling */
+  body {
+    font-family: "Nosifer", sans-serif;
+    background-color: #EB5E28 ;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  
+  /* Wrapper */
+  #wrapper {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+  }
+  
+  /* Navigation */
+  nav {
+    background-color: #444;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 1.5em;
+    padding: 1em;
+  }
+  
+  nav li {
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  nav li:hover {
+    background-color: #555;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+  }
+  
+  /* Main Content */
+  main {
+    text-align: center;
+    padding: 2em 0;
+  }
+  
+  main h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 1em;
+  }
+  
+  main img {
+    max-width: 100%;
+    height: auto;
+    margin: 1em 0;
+  }
+  
+  /* Section */
+  section {
+    margin: 2em 0;
+  }
+  
+  section h2 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 0.5em;
+  }
+  
+  section p {
+    font-size: 1em;
+    color: #666;
+    text-align: left;
+    padding: 0 1em;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    margin-top: 2em;
+  }
+  
