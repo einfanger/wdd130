@@ -1,0 +1,144 @@
+/* General Styles */
+body {
+    background-color: #606c38; /* Green background */
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container */
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Styles */
+header {
+    background-color: rgba(20, 30, 13, 0.7); /* Darker background for header */
+    color: white;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+header .logo {
+    width: 80px;
+    margin-left: 20px;
+}
+
+nav {
+    flex: 1;
+    text-align: center;
+}
+
+nav a {
+    color: #fcfbfb;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    background-color: black;
+    color: #d9c2a3;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* Hero Section */
+#hero {
+    position: relative;
+    text-align: center;
+}
+
+#hero-img {
+    width: 100%; /* Make hero image take up full width */
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+    margin: 0 auto;
+}
+
+/* Hero Text */
+#hero-msg h1 {
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Activity Cards */
+.activity-card {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.activity-card img {
+    max-width: 400px; /* Limit max width */
+    width: 100%; /* Ensure responsive resizing */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Makes image block-level to allow centering */
+    margin: 0 auto; /* Center the image horizontally */
+}
+
+.icon {
+    width: 80px;
+    margin: 10px auto;
+}
+
+/* Background Section */
+#background {
+    height: 725px;
+    background-color: #e5e7eb;
+}
+
+/* Message Section */
+.msg {
+    background-color: #f3f4f6;
+    padding: 20px;
+    text-align: center;
+}
+
+.msg h2 {
+    color: white;
+}
+
+.msg p {
+    color: #4b5563;
+}
+
+.join {
+    background-color: #3b82f6;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.join:hover {
+    background-color: #2563eb;
+}
+
+/* Footer */
+footer {
+    background-color: #374151;
+    color: #d1d5db;
+    text-align: center;
+    padding: 15px;
+}
+
+footer p {
+    font-size: 1.2em;
+}
+
+footer a {
+    color: #9ca3af;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #f3f4f6;
+    text-decoration: underline;
+}
