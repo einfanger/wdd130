@@ -15,14 +15,6 @@ Fonts are separated by a | */
   --heading-font: "Abril Fatface", serif;
   --paragraph-font: "Fjalla One", sans-serif;
 
-  h1, h2, h3, h4, h5, h6 {
-    font-family: "Abril Fatface", serif;
-  }
-  
-  p {
-    font-family: "Fjalla One", sans-serif;
-  }
-  
 
   /* these colors below should be chosen from among your palette colors above */
   --headline-color-on-white: #396E94;  /* headlines on a white background */ 
